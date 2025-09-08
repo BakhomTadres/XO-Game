@@ -66,3 +66,15 @@ button:hover {
   background-color: #fff;
   color: #000;
 }
+@media (min-width: 600px) {
+  .game {
+    width: 500px;
+  }
+  .container {
+    justify-content: center;
+  }
+  .square {
+    height: 150px;
+    width: 161px;
+  }
+}
